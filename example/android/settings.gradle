@@ -1,0 +1,5 @@
+rootProject.name = 'example'
+include ':tipsi-dash-line'
+project(':tipsi-dash-line').projectDir = new File(rootProject.projectDir, '../node_modules/tipsi-dash-line/android')
+
+include ':app'
