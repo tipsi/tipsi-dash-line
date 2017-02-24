@@ -1,0 +1,33 @@
+{
+  "name": "tipsi-dash-line",
+  "version": "0.1.0",
+  "description": "React Native dashed line component",
+  "main": "src/index.js",
+  "scripts": {
+    "ci": "scripts/local-ci.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tipsi/tipsi-dash-line.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "author": "Tipsi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tipsi/tipsi-dash-line/issues"
+  },
+  "homepage": "https://github.com/tipsi/tipsi-dash-line#readme",  
+  "peerDependencies": {
+    "react-native": ">=0.40"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "eslint": "^3.7.1",
+    "eslint-config-tipsi": "^1.4.0"
+  }
+}
